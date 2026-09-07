@@ -1,0 +1,33 @@
+{
+  "grid_basis": "SGIS official 100m grid (100M)",
+  "population_method": "2026-05-31 administrative-dong totals allocated by 2024 SGIS 100m grid population ratios within each administrative dong",
+  "grid_rows": 63636,
+  "final_shape": [
+    63636,
+    89
+  ],
+  "population_2026_total_int": 665858,
+  "population_2026_total_float": 665858.0,
+  "population_2024_grid_sum": 705688.0,
+  "source_summary": [
+    {
+      "source_id": "integrated_facilities",
+      "file_name": "cheonan_all_facilities_geocoded.csv",
+      "encoding": "utf-8-sig",
+      "status": "processed",
+      "rows": 2943,
+      "valid_coordinate_rows": 2937,
+      "matched_grid_rows": 2937,
+      "unmatched_grid_rows": 6
+    }
+  ],
+  "outputs": {
+    "grid_csv": "C:\\Users\\심현석\\Documents\\test\\Cheonan-0825\\grid_outputs\\cheonan_sgis_100m_grid_cells_center_in.csv",
+    "population_adm_summary_csv": "C:\\Users\\심현석\\Documents\\test\\Cheonan-0825\\grid_outputs\\cheonan_sgis_100m_population_by_adm_summary.csv",
+    "coordinate_assignments_csv": "C:\\Users\\심현석\\Documents\\test\\Cheonan-0825\\grid_outputs\\cheonan_sgis_100m_coordinate_point_assignments.csv",
+    "address_assignments_csv": "C:\\Users\\심현석\\Documents\\test\\Cheonan-0825\\grid_outputs\\cheonan_sgis_100m_address_point_assignments.csv",
+    "source_summary_csv": "C:\\Users\\심현석\\Documents\\test\\Cheonan-0825\\grid_outputs\\cheonan_sgis_100m_source_summary.csv",
+    "final_csv": "C:\\Users\\심현석\\Documents\\test\\Cheonan-0825\\grid_outputs\\cheonan_sgis_100m_final_features_with_population.csv",
+    "metadata_json": "C:\\Users\\심현석\\Documents\\test\\Cheonan-0825\\grid_outputs\\cheonan_sgis_100m_metadata.json"
+  }
+}
